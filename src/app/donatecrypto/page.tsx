@@ -4,6 +4,7 @@ import { WagmiConfig, createClient, configureChains, chain } from "wagmi";
 import { publicProvider } from "wagmi/providers/public";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import "@rainbow-me/rainbowkit/styles.css";
+import InputText from '../../components/Input'
 import {
     darkTheme,
     RainbowKitProvider,
@@ -39,6 +40,11 @@ export default function Connectpage() {
                     <p className="text-center">
                         Send ETh only
                     </p>
+                    <div className="flex items-center justify-center">
+                    <div className="max-w-[500px] ">
+                        <InputText/>
+                    </div>
+                    </div>
                 </RainbowKitProvider>
             </WagmiConfig>
         </div>
