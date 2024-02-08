@@ -28,7 +28,7 @@ export default function Main() {
             {/* <br/> */}
             <a
               className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
-              href="/donatecrypto"
+              href="https://mywhalehub.mysellix.io/pay/27c551-0a2c941195-fcdc68"
             >
               Donate via Crypto
               <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full"/>
