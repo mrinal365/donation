@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
-
+import Table from './Table'
 export default function Main() {
   return (
     <div className="grotesk max-w-8xl mx-auto">
-      <section className="w-full text-black">
+      <section className="w-full text-black ">
         <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
           <div className="lg:w-3/6">
             <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
@@ -18,18 +18,22 @@ export default function Main() {
               leading to  of sport career 
             </p>
             <a
-              className="bg-[#6761F9] mt-6 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
+              className="bg-[#6761F9] rounded-md mt-6 inline-flex gap-3 items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
               href="https://buy.stripe.com/test_fZe8ywcsFbyj8gw000"
               target="_blank"
             >
               Donate via Card
+              <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" className="h-5 w-5 border-[1px] border-[white] rounded-full"/>
             </a>
             {/* <br/> */}
             <a
-              className="bg-[#003B8E] mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
-              href="/"
+              className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
+              href="/donatecrypto"
             >
               Donate via Crypto
+              <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full"/>
+
+              
             </a>
           </div>
           <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
@@ -114,7 +118,7 @@ export default function Main() {
               </div>
             </div>
           </div> */}
-          <div className="text-black">
+          <div id="team" className="text-black">
             <div
               className="
               max-w-9xl
@@ -128,13 +132,12 @@ export default function Main() {
             >
               <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
                 <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                  Story
+                  Team
                 </h2>
                 <p className="mb-4 text-lg leading-relaxed">
-                  Hello this is story line which can be added later on and the details will be given and then will be wroitten over here
-                  Hello this is story line which can be added later on and the details will be given and then will be wroitten over here
+                #21 OHA Mavericks Gold U22 AA / Independent (W) - 23/24
                 </p>
-                <a href="/" className="font-semibold">
+                <a href="https://www.eliteprospects.com/team/38403/oha-mavericks-gold-u22-aa" className="font-semibold">
                   know more
                 </a>
               </div>
@@ -169,7 +172,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="mx-auto px-5 pt-8 pb-8 lg:px-24">
+        <div id="profile" className="mx-auto px-5 pt-8 pb-8 lg:px-24">
           <div className="my-3 flex w-full flex-col text-left lg:text-center">
             <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
               Profile{" "}
@@ -177,20 +180,15 @@ export default function Main() {
               {/* consectetur adipiscing elit. */}
             </h2>
           </div>
-          <div className="flex w-full flex-col text-left lg:text-center">
-            <h3 className="text-2xl text-black">
-              Lorem ipsum arcu, consectetur adipiscing elit. Viverra elementum
-              pellentesque <br className="hidden lg:inline-block" />
-              tortor, luctus blandit sed dolor et, semper. Posuere vitae vitae,
-              ac mus. Arcu quis feugiat.
-            </h3>
+          <div className="flex w-full justify-center text-left lg:text-center">
+            <Table/>
           </div>
           <div className="flex w-full flex-row justify-center pt-4 text-center">
             <a
               href="https://www.eliteprospects.com/player/909011/pnina-basov"
-              className="underline- px-8 text-xl font-semibold text-blue-500"
+              className="underline- px-8 text-xl font-semibold text-black-900"
             >
-              Check Profile
+              View Full Profile 
             </a>
             
           </div>
@@ -198,7 +196,7 @@ export default function Main() {
         <div className=" mx-auto flex justify-center max-w-6xl p-3 pb-8 lg:visible lg:px-2">
           <img src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Team-Israel-and-Samara-Lewis.jpg" alt="img" />
         </div>
-        <div className="bg-white text-black">
+        <div id="article" className="bg-white text-black mb-10 pb-6">
           <div className="mx-auto flex flex-col items-center px-5 pt-8 lg:flex-row">
             <div className="mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
               <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
@@ -211,10 +209,10 @@ Prior to the Maccabiah Games, Basov actually possessed the experience of interna
               </p>
               <div>
               <a
-              className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
+              className="bg-black rounded-md mt-2 inline-flex items-center px-8 py-2 text-lg font-semibold tracking-tighter text-white"
               href="https://womenshockeylife.com/pnina-basov-a-shining-star-for-womens-ice-hockey-in-israel/"
             >
-              Read more
+              Read more...
             </a>
               </div>
             </div>
@@ -249,7 +247,7 @@ Prior to the Maccabiah Games, Basov actually possessed the experience of interna
             </div>
           </div> */}
       
-          <div className="mx-auto">
+          {/* <div className="mx-auto">
             <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24">
               <div className="my-6 flex w-full flex-col text-left lg:text-center">
                 <h3 className="mb-8 text-5xl font-bold text-black">
@@ -263,7 +261,7 @@ Prior to the Maccabiah Games, Basov actually possessed the experience of interna
               </div>
               <img src="/images/placeholder.png" alt="img" />
             </div>
-          </div>
+          </div> */}
           {/* <div className="text-black">
             <div className="max-w-8xl mx-auto flex flex-col px-5 py-48 text-black lg:flex-row">
               <div className="lg:mb-0 lg:w-full lg:max-w-xl">

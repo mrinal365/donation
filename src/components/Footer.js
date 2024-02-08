@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="grotesk bg-[#f9fbfb]">
+      <footer className="grotesk bg-[#000000]">
         {/* <div className="max-w-8xl mx-auto px-5 py-24 text-black">
           <div className="order-first flex flex-wrap text-left">
             <div className="w-full px-4 md:w-2/4 lg:w-1/5">
@@ -120,12 +120,12 @@ export default function Footer() {
           <div className="max-w-8xl mx-auto px-5 py-6">
             {/* <h2 className="text-black">Thank You Text</h2> */}
             <div>
-              <h2 className="my-4 text-sm">
+              <h2 className="my-4 text-sm text-white">
                 Thank You - {" "}
                 <br className="hidden lg:inline-block" /> Pnina Basov
               </h2>
             </div>
-            <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
+            {/* <div className="absolute  mt-0 hidden text-white lg:inline-block">
               <a href="/" className="mr-16">
                 Facebook
               </a>
@@ -135,7 +135,7 @@ export default function Footer() {
               <a href="/" className="mr-16">
                 Twitter (X)
               </a>
-            </div>
+            </div> */}
           
           </div>
         </div>
