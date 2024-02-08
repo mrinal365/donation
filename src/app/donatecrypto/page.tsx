@@ -35,15 +35,43 @@ export default function Connectpage() {
                 <RainbowKitProvider chains={chains} theme={darkTheme()} coolMode>
                     {/* <h1>Wallet connect</h1> */}
                     <div className="flex justify-center mt-10">
-                    <ConnectButton />
+                        <ConnectButton />
                     </div>
                     <p className="text-center">
                         Send ETh only
                     </p>
                     <div className="flex items-center justify-center">
-                    <div className="max-w-[500px] ">
-                        <InputText/>
+                        <div className="max-w-[500px] ">
+                            <InputText />
+                        </div>
                     </div>
+                    <div >
+                        <div className="flex w-full flex-row justify-center pt-4 text-center">
+
+                            <a
+                                className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
+                                href="https://mywhalehub.mysellix.io/pay/27c551-0a2c941195-fcdc68"
+                            >
+                                Donate via Crypto
+                                <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full" />
+
+
+                            </a>
+
+                        </div>
+                        <div className="flex w-full flex-row justify-center pt-4 text-center">
+
+                            <a
+                                className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
+                                href="https://mywhalehub.mysellix.io/pay/27c551-0a2c941195-fcdc68"
+                            >
+                                Donate via Crypto
+                                <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full" />
+
+
+                            </a>
+
+                        </div>
                     </div>
                 </RainbowKitProvider>
             </WagmiConfig>
