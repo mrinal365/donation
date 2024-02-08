@@ -8,13 +8,14 @@ export default function Main() {
         <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
           <div className="lg:w-3/6">
             <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-              Donation Page Heading
+              Donate for Pnina Basov
             </h2>
 
             <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-              Lorem ipsum urna, consectetur adipiscing elit. Urna risus
-              hendrerit dignissim duis fringilla sit. Lacus porttitor neque
-              ipsum.
+               Pnina Basov, 18 year old girl in Canada -from Haifa Israel, <br/>
+               Playing professional hockey in Canada and wants continue education in USA but the thing is that she is running our of money and in the spring if she will not find it she will go to army in Israel.
+               <br/>
+              leading to  of sport career 
             </p>
             <a
               className="bg-[#6761F9] mt-6 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
@@ -32,10 +33,10 @@ export default function Main() {
             </a>
           </div>
           <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-            <img src="/images/placeholder.png" alt="Hero" />
+            <img src="https://files.eliteprospects.com/layout/players/pnina_basov_isr.jpg" alt="Hero" />
           </div>
           <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-            <img src="/images/placeholder.png" alt="image" />
+            <img src="https://files.eliteprospects.com/layout/players/pnina_basov_isr.jpg" alt="image" />
           </div>
         </div>
         <div className="mt-0 bg-white lg:mt-40">
@@ -148,7 +149,7 @@ export default function Main() {
                 lg:inline-block 
                 lg:w-4/6
               "
-                src="/images/placeholder.png"
+                src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Abigali-Fuzaylov.jpg"
                 alt="img"
               />
 
@@ -162,16 +163,16 @@ export default function Main() {
               lg:hidden
               lg:w-4/6 
             "
-                src="/images/placeholder.png"
+                src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Abigali-Fuzaylov.jpg"
                 alt="img"
               />
             </div>
           </div>
         </div>
-        <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
+        <div className="mx-auto px-5 pt-8 pb-8 lg:px-24">
           <div className="my-3 flex w-full flex-col text-left lg:text-center">
             <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
-              Participations and Achievements{" "}
+              Profile{" "}
               <br className="hidden lg:inline-block" />
               {/* consectetur adipiscing elit. */}
             </h2>
@@ -184,42 +185,44 @@ export default function Main() {
               ac mus. Arcu quis feugiat.
             </h3>
           </div>
-          <div className="flex w-full flex-row justify-center pt-24 text-center">
+          <div className="flex w-full flex-row justify-center pt-4 text-center">
             <a
-              href="/"
-              className="underline-blue px-8 text-xl font-semibold text-black"
+              href="https://www.eliteprospects.com/player/909011/pnina-basov"
+              className="underline- px-8 text-xl font-semibold text-blue-500"
             >
-              Ut eleifend.
+              Check Profile
             </a>
-            <a
-              href="/"
-              className="underline-gray px-6 text-xl font-semibold text-gray-700"
-            >
-              Tempus in.
-            </a>
+            
           </div>
         </div>
-        <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
-          <img src="/images/placeholder.png" alt="img" />
+        <div className=" mx-auto flex justify-center max-w-6xl p-3 pb-8 lg:visible lg:px-2">
+          <img src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Team-Israel-and-Samara-Lewis.jpg" alt="img" />
         </div>
         <div className="bg-white text-black">
-          <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
+          <div className="mx-auto flex flex-col items-center px-5 pt-8 lg:flex-row">
             <div className="mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
               <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-                 Article 1
+              Pnina Basov a shining star for women’s ice hockey in Israel
               </h2>
               <p className="font-3xl mb-8 font-semibold leading-relaxed">
-                Lorem ipsum auctor sit amet, consectetur adipiscing elit. Sit a
-                egestas tortor viverra nisl, in non. Neque viverra sollicitudin
-                amet volutpat auctor amet. Aliquam pellentesque condimentum
-                mauris sit tincidunt egestas ullamcorper sit.{" "}
+              Playing for host country Israel at the Maccabiah Games, feelings of history and achievement encompassed a thrilling experience for center Pnina Basov. Wearing the number 13, the 16 year old forward brought a youthful exuberance and tremendous enthusiasm to the team, definitely a building block for the program’s future.
+
+Prior to the Maccabiah Games, Basov actually possessed the experience of international hockey on her promising resume. Skating for Team Israel at the 2022 IIHF Women’s World Championships, Group III, Division B in Serbia, the event marked a significant milestone for Basov and teammates alike. In addition to Israel, the team’s  from Bosnia-Herzegovina and host Serbia enjoyed their IIHF debuts.{" "}
               </p>
+              <div>
+              <a
+              className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
+              href="https://womenshockeylife.com/pnina-basov-a-shining-star-for-womens-ice-hockey-in-israel/"
+            >
+              Read more
+            </a>
+              </div>
             </div>
             <div className="lg:w-full lg:max-w-2xl">
-              <img src="/images/placeholder.png" alt="img" />
+              <img src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-Team-Israel.jpg" alt="img" />
             </div>
           </div>
-          <div className="mt-32">
+          {/* <div className="mt-32">
             <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
               <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
                 <img src="/images/placeholder.png" alt="img" />
@@ -233,44 +236,24 @@ export default function Main() {
                   ut purus donec sed donec semper ac vestibulum. Mi urna,
                   facilisis arcu, auctor elit. Ut nunc non aenean netus ut.
                 </p>
+                <a
+              className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
+              href="/"
+            >
+              Read more
+            </a>
               </div>
               <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
                 <img src="/images/placeholder.png" alt="img" />
               </div>
             </div>
-          </div>
-          <div className="my-24 p-4 text-black">
-            <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
-              <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
-                <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
-                  Girl video / something
-                </h2>
-                <p className="text-md mb-8 lg:text-xl">
-                  Lorem ipsum praesent amet, consectetur adipiscing elit. Cursus
-                  ullamcorper id tristique tincidunt. Tincidunt feugiat at mi
-                  feugiat hendrerit. Ac faucibus accumsan, quis lacus, lectus
-                  eget bibendum. At praesent quisque sollicitudin fusce.
-                </p>
-              </div>
-              <div className="w-4/7 pr-12 lg:w-2/5">
-                <img
-                  src="/images/placeholder.png"
-                  className="hidden object-cover object-center lg:inline-block"
-                  alt="image"
-                />
-                <img
-                  src="/images/placeholder.png"
-                  className="inline-block object-cover object-center lg:hidden"
-                  alt="image"
-                />
-              </div>
-            </div>
-          </div>
+          </div> */}
+      
           <div className="mx-auto">
             <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24">
               <div className="my-6 flex w-full flex-col text-left lg:text-center">
                 <h3 className="mb-8 text-5xl font-bold text-black">
-                  Article / Help Details
+                  Profile
                 </h3>
                 <h3 className="mb-12 px-0 text-lg font-semibold text-gray-900 lg:px-52">
                   Lorem ipsum accumsan arcu, consectetur adipiscing elit.

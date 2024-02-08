@@ -118,36 +118,25 @@ export default function Footer() {
         </div> */}
         <div className="px-2">
           <div className="max-w-8xl mx-auto px-5 py-6">
-            <h2 className="text-black">Thank You Text</h2>
+            {/* <h2 className="text-black">Thank You Text</h2> */}
             <div>
               <h2 className="my-4 text-sm">
-                Thank You Text{" "}
-                <br className="hidden lg:inline-block" /> pretium pellentesque.
-                Dictumst risus elementum dignissim risus, lobortis molestie.
+                Thank You - {" "}
+                <br className="hidden lg:inline-block" /> Pnina Basov
               </h2>
             </div>
             <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
               <a href="/" className="mr-16">
-                Socials 1
+                Facebook
               </a>
               <a href="/" className="mr-16">
-                Social 2
+                Instagram
               </a>
               <a href="/" className="mr-16">
-                Social 3
+                Twitter (X)
               </a>
             </div>
-            <div className="right-0 inline-block pt-12 pb-6 pr-20 text-sm text-black md:hidden">
-              <a href="/" className="mr-16">
-                Social 4
-              </a>
-              <a href="/" className="mr-16">
-                Social 5
-              </a>
-              {/* <a href="/" className="mr-16">
-                Cookie Policy
-              </a> */}
-            </div>
+          
           </div>
         </div>
       </footer>
