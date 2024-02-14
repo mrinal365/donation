@@ -44,7 +44,7 @@ export default function Main() {
           </div>
         </div>
         <div className="py-10 bg-white lg:mt-40">
-          <div id="team" className="text-black">
+          <div id="message" className="text-black">
             <div
               className="
               max-w-9xl

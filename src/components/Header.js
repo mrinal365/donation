@@ -31,8 +31,8 @@ export default function Header() {
             <a href="/" className="pr-12 text-xl text-white">
               Home
             </a>
-            <a href="#team" className="pr-12 text-xl text-white">
-              Team
+            <a href="#message" className="pr-12 text-xl text-white">
+              Message
             </a>
             <a href="#profile" className="pr-12 text-xl text-white">
               Profile
