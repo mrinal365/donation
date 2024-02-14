@@ -11,7 +11,7 @@ const Table = () => {
                             Date of birth
                         </th>
                         <td className="px-6 py-4 text-gray-900">
-                            Jan 13, 2016
+                            Jan 13, 2006
                         </td>
 
                     </tr>
@@ -41,7 +41,8 @@ const Table = () => {
                             Team
                         </th>
                         <td className="px-6 py-4 text-gray-900">
-                            #21 OHA Mavericks Gold U22 AA / Independent (W) - 23/24
+                        • National Israel Women Team<br/>
+                        • #21 OHA Mavericks Gold U22 AA 
                         </td>
 
                     </tr>

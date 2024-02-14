@@ -1,6 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
+'use client'
 import Table from './Table'
+import VideoPlayer from '@/components/VideoPlayer';
+
+// import Video from '../../public/images/pnina.mp4'
 export default function Main() {
   return (
     <div className="grotesk max-w-8xl mx-auto">
@@ -12,18 +16,14 @@ export default function Main() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-               Pnina Basov, 18 year old girl in Canada -from Haifa Israel, <br/>
-               Playing professional hockey in Canada and wants continue education in USA but the thing is that she is running our of money and in the spring if she will not find it she will go to army in Israel.
-               <br/>
-              leading to  of sport career 
-            </p>
+              Pnina Basov, 18 years old, hockey player from Israel. Honored as MVP( most valuable player) 2022 of National Israeli Team.<br /> Studying and playing hockey in Canada for 3 years. Accepted to study and play in USA college for next 4 years but unfortunately run out of money and cannot afford it. <br />Please donate so she could not give up her dream and could make bigger contributions to the Israeli sport in future . Your donation is one more step to my big dream !            </p>
             <a
               className="bg-[#6761F9] rounded-md mt-6 inline-flex gap-3 items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
               href="https://buy.stripe.com/test_fZe8ywcsFbyj8gw000"
               target="_blank"
             >
               Donate via Card
-              <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" className="h-5 w-5 border-[1px] border-[white] rounded-full"/>
+              <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" className="h-5 w-5 border-[1px] border-[white] rounded-full" />
             </a>
             {/* <br/> */}
             <a
@@ -31,9 +31,9 @@ export default function Main() {
               href="https://mywhalehub.mysellix.io/pay/27c551-0a2c941195-fcdc68"
             >
               Donate via Crypto
-              <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full"/>
+              <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full" />
 
-              
+
             </a>
           </div>
           <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
@@ -43,81 +43,7 @@ export default function Main() {
             <img src="https://files.eliteprospects.com/layout/players/pnina_basov_isr.jpg" alt="image" />
           </div>
         </div>
-        <div className="mt-0 bg-white lg:mt-40">
-          {/* <div className="mx-auto">
-            <div className="mx-auto px-5 py-24 lg:px-24">
-              <div className="my-10 flex w-full flex-col text-center">
-                <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                  Details of the matches played and teams associated with
-                </h2>
-              </div>
-              <div
-                className="
-                grid grid-cols-2
-                gap-16
-                text-center
-                lg:grid-cols-6"
-              >
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-              </div>
-              <div className="my-12 flex w-full flex-col pl-8 text-center">
-                <a
-                  href="/"
-                  className="
-                  underline-blue
-                  mb-8
-                  mt-6
-                  text-xl
-                  font-bold
-                  text-black
-                "
-                >
-                  Ut eleifend.
-                </a>
-              </div>
-            </div>
-          </div> */}
+        <div className="py-10 bg-white lg:mt-40">
           <div id="team" className="text-black">
             <div
               className="
@@ -132,43 +58,30 @@ export default function Main() {
             >
               <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
                 <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                  Team
+                  Message
                 </h2>
-                <p className="mb-4 text-lg leading-relaxed">
-                #21 OHA Mavericks Gold U22 AA / Independent (W) - 23/24
+                {/* <p className="mb-4 text-lg leading-relaxed">
+                  • National Israel Women Team
+                  <br />
+                  • #21 OHA Mavericks Gold U22 AA /
                 </p>
                 <a href="https://www.eliteprospects.com/team/38403/oha-mavericks-gold-u22-aa" className="font-semibold">
                   know more
-                </a>
+                </a> */}
               </div>
-              <img
-                className="
-                lg:w-5/7
-                mb-40
-                hidden
-                w-5/6
-                rounded object-cover
-                object-center
-                lg:inline-block 
-                lg:w-4/6
-              "
+              {/* <img
+                className="lg:w-5/7 mb-40 hidden w-5/6 rounded object-cover object-center lg:inline-block  lg:w-4/6"
                 src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Abigali-Fuzaylov.jpg"
                 alt="img"
               />
 
               <img
-                className="
-              mb-24
-              inline-block
-              w-5/6
-              rounded
-              object-cover object-center
-              lg:hidden
-              lg:w-4/6 
-            "
+                className="mb-24 inline-block w-5/6 rounded object-cover object-center lg:hidden lg:w-4/6"
                 src="https://womenshockeylife.com/wp-content/uploads/2022/09/Pnina-Basov-with-Abigali-Fuzaylov.jpg"
                 alt="img"
-              />
+              /> */}
+              
+              <VideoPlayer/>
             </div>
           </div>
         </div>
@@ -181,16 +94,16 @@ export default function Main() {
             </h2>
           </div>
           <div className="flex w-full justify-center text-left lg:text-center">
-            <Table/>
+            <Table />
           </div>
           <div className="flex w-full flex-row justify-center pt-4 text-center">
             <a
               href="https://www.eliteprospects.com/player/909011/pnina-basov"
               className="underline- px-8 text-xl font-semibold text-black-900"
             >
-              View Full Profile 
+              View Full Profile
             </a>
-            
+
           </div>
         </div>
         <div className=" mx-auto flex justify-center max-w-6xl p-3 pb-8 lg:visible lg:px-2">
@@ -200,20 +113,20 @@ export default function Main() {
           <div className="mx-auto flex flex-col items-center px-5 pt-8 lg:flex-row">
             <div className="mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
               <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-              Pnina Basov a shining star for women’s ice hockey in Israel
+                Pnina Basov a shining star for women’s ice hockey in Israel
               </h2>
               <p className="font-3xl mb-8 font-semibold leading-relaxed">
-              Playing for host country Israel at the Maccabiah Games, feelings of history and achievement encompassed a thrilling experience for center Pnina Basov. Wearing the number 13, the 16 year old forward brought a youthful exuberance and tremendous enthusiasm to the team, definitely a building block for the program’s future.
+                Playing for host country Israel at the Maccabiah Games, feelings of history and achievement encompassed a thrilling experience for center Pnina Basov. Wearing the number 13, the 16 year old forward brought a youthful exuberance and tremendous enthusiasm to the team, definitely a building block for the program’s future.
 
-Prior to the Maccabiah Games, Basov actually possessed the experience of international hockey on her promising resume. Skating for Team Israel at the 2022 IIHF Women’s World Championships, Group III, Division B in Serbia, the event marked a significant milestone for Basov and teammates alike. In addition to Israel, the team’s  from Bosnia-Herzegovina and host Serbia enjoyed their IIHF debuts.{" "}
+                Prior to the Maccabiah Games, Basov actually possessed the experience of international hockey on her promising resume. Skating for Team Israel at the 2022 IIHF Women’s World Championships, Group III, Division B in Serbia, the event marked a significant milestone for Basov and teammates alike. In addition to Israel, the team’s  from Bosnia-Herzegovina and host Serbia enjoyed their IIHF debuts.{" "}
               </p>
               <div>
-              <a
-              className="bg-black rounded-md mt-2 inline-flex items-center px-8 py-2 text-lg font-semibold tracking-tighter text-white"
-              href="https://womenshockeylife.com/pnina-basov-a-shining-star-for-womens-ice-hockey-in-israel/"
-            >
-              Read more...
-            </a>
+                <a
+                  className="bg-black rounded-md mt-2 inline-flex items-center px-8 py-2 text-lg font-semibold tracking-tighter text-white"
+                  href="https://womenshockeylife.com/pnina-basov-a-shining-star-for-womens-ice-hockey-in-israel/"
+                >
+                  Read more...
+                </a>
               </div>
             </div>
             <div className="lg:w-full lg:max-w-2xl">
@@ -246,7 +159,7 @@ Prior to the Maccabiah Games, Basov actually possessed the experience of interna
               </div>
             </div>
           </div> */}
-      
+
           {/* <div className="mx-auto">
             <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24">
               <div className="my-6 flex w-full flex-col text-left lg:text-center">
