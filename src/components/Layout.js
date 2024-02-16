@@ -19,7 +19,7 @@ export default function Main() {
               Pnina Basov, 18 years old, hockey player from Israel. Honored as MVP( most valuable player) 2022 of National Israeli Team.<br /> Studying and playing hockey in Canada for 3 years. Accepted to study and play in USA college for next 4 years but unfortunately run out of money and cannot afford it. <br />Please donate so she could not give up her dream and could make bigger contributions to the Israeli sport in future. Your donation is one more step to my big dream !            </p>
             <a
               className="bg-[#6761F9] rounded-md mt-6 inline-flex gap-3 items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
-              href="https://buy.stripe.com/test_fZe8ywcsFbyj8gw000"
+              href="https://donate.stripe.com/dR6171dz4f950nedQQ"
               target="_blank"
             >
               Donate via Card
@@ -28,7 +28,7 @@ export default function Main() {
             {/* <br/> */}
             <a
               className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
-              href="https://mywhalehub.mysellix.io/pay/27c551-0a2c941195-fcdc68"
+              href="https://pnina.mysellix.io/pay/a8fa30-e6b215d3ec-a10709"
             >
               Donate via Crypto
               <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" className="h-5 w-5  rounded-full" />
