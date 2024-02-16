@@ -50,13 +50,13 @@ export default function Header() {
             >
               Log in
             </a> */}
-            <a
+            <p
               className="bg-white mt-2 gap-3 inline-flex items-center px-4 py-2 sm:px-8 sm:py-3  text-md sm:text-lg font-semibold tracking-tighter text-black rounded-md"
-              href="/"
+              // href="/"
             >
               Donate
               <img src="https://files.eliteprospects.com/layout/flagsmedium/45.png" className="h-6 w-6"/>
-            </a>
+            </p>
           </div>
         
         </div>
