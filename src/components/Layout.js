@@ -18,12 +18,12 @@ export default function Main() {
             <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
               Pnina Basov, 18 years old, hockey player from Israel. Honored as MVP( most valuable player) 2022 of National Israeli Team.<br /> Studying and playing hockey in Canada for 3 years. Accepted to study and play in USA college for next 4 years but unfortunately run out of money and cannot afford it. <br />Please donate so she could not give up her dream and could make bigger contributions to the Israeli sport in future. Your donation is one more step to my big dream !            </p>
             <a
-              className="bg-[#6761F9] rounded-md mt-6 inline-flex gap-3 items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white mr-4 "
-              href="https://donate.stripe.com/dR6171dz4f950nedQQ"
+              className="bg-[#0e0e0e] rounded-md mt-6 inline-flex gap-3 items-center px-8 py-3 text-lg font-semibold tracking-tighter text-[#ffffff] mr-4 "
+              href="https://donate.pnina.website/"
               target="_blank"
             >
-              Donate via Card
-              <img src="https://play-lh.googleusercontent.com/2PS6w7uBztfuMys5fgodNkTwTOE6bLVB2cJYbu5GHlARAK36FzO5bUfMDP9cEJk__cE" className="h-5 w-5 border-[1px] border-[white] rounded-full" />
+              Donate via Card / Paypal
+              <img src="https://brandlogos.net/wp-content/uploads/2021/11/paypal-logo-512x512.png" className="h-5 w-5 border-[0px] border-[white] rounded-full" />
             </a>
             {/* <br/> */}
             <a
