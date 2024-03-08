@@ -23,7 +23,7 @@ export default function Main() {
               target="_blank"
             >
               Donate via Card / Paypal
-              <img src="https://brandlogos.net/wp-content/uploads/2021/11/paypal-logo-512x512.png" className="h-5 w-5 border-[0px] border-[white] rounded-full" />
+              <img src="https://www.edigitalagency.com.au/wp-content/uploads/PayPal-icon-white-png-vertical.png" className="h-5 w-5 border-[0px] border-[white] rounded-full" />
             </a>
             {/* <br/> */}
             <a
