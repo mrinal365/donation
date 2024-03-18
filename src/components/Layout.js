@@ -37,7 +37,7 @@ export default function Main() {
             </a>
             <a
               className="bg-[#ffffff] rounded-md border-[1px] border-[black] mt-2 inline-flex items-center px-8 gap-3 py-3 text-lg font-semibold tracking-tighter text-black"
-              href="https://crypto.pnina.website/"
+              href="https://donatecrypto.pnina.website/"
             >
               Donate via Metamask
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" className="h-5 w-5  rounded-full" />
